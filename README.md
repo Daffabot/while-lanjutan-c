@@ -1,2 +1,4 @@
 # while-lanjutan-c
-While Lanjutan dalam bahasa C
+Tugas dari pak Dzikri
+## Kalau mau copas atau mempelajarinya harus follow akun ku dulu!!!!!
+Tak selepet yang gak follow
