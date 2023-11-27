@@ -10,7 +10,7 @@ void mainmenu() {
     char result[500] = ""; // String untuk menyimpan hasil input
 
     printf("Masukkan Jumlah Siswa: ");
-    scanf(" %[^\n]s", input);
+    scanf(" %[^\n]s", &input);
     char *endptr;
     long menu = strtol(input, &endptr, 10); //Untuk memisahkan antara integer dengan string
     
@@ -19,9 +19,9 @@ void mainmenu() {
     	//Perulangan dengan kondisi jika variabel pengulang sudah mencapai total input.
         while (repeater <= menu) {
             printf("\nMasukkan Nama Siswa %i : ", repeater);
-            scanf(" %[^\n]s", nama);
+            scanf(" %[^\n]s", &nama);
             printf("Masukkan Kelas Siswa %i (1.RPL/2.TKJ): ", repeater);
-            scanf(" %[^\n]s", kelas);
+            scanf(" %[^\n]s", &kelas);
             char *endptr2;
             long hasil = strtol(kelas, &endptr2, 10);
             
