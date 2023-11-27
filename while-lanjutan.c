@@ -3,7 +3,7 @@
 #include <windows.h>
 
 void mainmenu() {
-	char input[100];
+    char input[100];
     int repeater = 1;
     char kelas[100];
     char nama[20];
